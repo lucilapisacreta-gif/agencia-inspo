@@ -79,3 +79,5 @@ export default function InspirationDashboard() {
         
         {/* Header */}
         <header className="flex flex-col md:flex-row md
+    );
+}
