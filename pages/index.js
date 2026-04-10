@@ -1,7 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Search, Plus, X, ExternalLink, Tag, ChevronDown, Image as ImageIcon, Trash2 } from 'lucide-react';
 import { supabase } from '../lib/supabase';
-
 const CATEGORY_COLORS = {
   Branding: { bg: "#f0edff", text: "#6c63ff" },
   Fashion: { bg: "#fce7f3", text: "#db2777" },
